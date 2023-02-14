@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Página Web Interactiva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section1">
+        <h1>Pokémon Couples</h1>
+        <table>
+          <tr>
+            <td><button id="0" onclick="uncover(0)"></button></td>
+            <td><button id="1" onclick="uncover(1)"></button></td>
+            <td><button id="2" onclick="uncover(2)"></button></td>
+            <td><button id="3" onclick="uncover(3)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="4" onclick="uncover(4)"></button></td>
+            <td><button id="5" onclick="uncover(5)"></button></td>
+            <td><button id="6" onclick="uncover(6)"></button></td>
+            <td><button id="7" onclick="uncover(7)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="8" onclick="uncover(8)"></button></td>
+            <td><button id="9" onclick="uncover(9)"></button></td>
+            <td><button id="10" onclick="uncover(10)"></button></td>
+            <td><button id="11" onclick="uncover(11)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="12" onclick="uncover(12)"></button></td>
+            <td><button id="13" onclick="uncover(13)"></button></td>
+            <td><button id="14" onclick="uncover(14)"></button></td>
+            <td><button id="15" onclick="uncover(15)"></button></td>
+          </tr>
+        </table>
+      </div>
+      <div class="section2">
+        <h2 id="success" class="stats">Aciertos: 0</h2>
+        <h2 id="timeleft" class="stats">Tiempo: 0 segundos</h2>
+        <h2 id="movements" class="stats">Movimientos: 0</h2>
+      </div>
+    </div>
+  </body>
+</html>
